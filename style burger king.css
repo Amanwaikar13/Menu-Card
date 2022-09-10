@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.nav{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    float: left;
+    width: 5%;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 8px 10px 10px 6px rgb(51, 47, 47);
+    padding: 35px;
+    font-size: 25px;
+}
+.nav:active{
+    background-color: rgb(255, 0, 0);
+}
+
+.pizza{
+    border-left: 20px solid rgb(255, 0, 0);
+    background-color:rgb(199, 196, 196);
+    text-shadow:20px white;
+    box-shadow: 50px white;
+    font-family: cursive;
+    text-shadow: 10px darkblue;
+    margin-right: 500px;
+}
+h2{
+    font-size: 50;
+    text-align:right;
+    margin-top: 350px;
+    margin-right: 260px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 4px 4px rgb(92, 92, 92);
+}
+
+h5{
+    font-size: 25px;
+    margin: 30px 0px 0px 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 22px;
+    margin: 0px 0px 0px 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+}
+
+.menu{
+    padding:50px 0px 0px 250px;
+    font-size: 45px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-style: solid;
+    border-top-color: rgb(129, 113, 113);
+    letter-spacing: 5px;
+    text-shadow: 6px 6px 5px rgb(77, 75, 75);
+}
+
+.aman{
+    width: 560px;
+    height: 560px;
+    margin-left: 40px;
+    box-shadow: 6px 7px 6px red, 11px 13px 6px blue, 17px 19px 6px rgb(0, 255, 0);
+}
+
+.see{
+    margin-left: 900px;
+    position:absolute;
+    height: 600px;
+    width: 460;
+    box-shadow: 8px 8px 10px 10px rgb(133, 130, 130);
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    color:white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+}
